@@ -1,12 +1,8 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import Todo from 'app/components/Todo';
 
 const App = () => {
-  return (
-    <View>
-      <Text>app</Text>
-    </View>
-  );
+  return <Todo />;
 };
 
 export default App;
